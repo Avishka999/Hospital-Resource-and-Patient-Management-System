@@ -20,7 +20,7 @@ class HospitalSystem:
             cls._instance.next_resource_id = 8001
         return cls._instance
 
-    # --- ID Generation ---
+    #ID Generation 
     def generate_patient_id(self):
         pid = f"P{self.next_patient_id:03}"
         self.next_patient_id += 1
