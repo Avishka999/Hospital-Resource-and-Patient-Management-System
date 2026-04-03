@@ -4,7 +4,7 @@ from models import Patient, Doctor, Appointment, MedicalRecord, Resource
 from hospital_system import HospitalSystem
 
 def manage_resources(system):
-    """Sub-menu for managing hospital resources."""
+    ""Sub-menu for managing hospital resources.""
     while True:
         print("\n-- Resource Management --")
         print("1. Add a new Resource")
@@ -145,7 +145,7 @@ def main():
             manage_resources(system)
 
         elif choice == '13':
-            print("Thank you for using the system. Goodbye! 👋")
+            print("Thank you for using the system. Goodbye! ")
             break
             
         else:
